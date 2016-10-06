@@ -21,3 +21,10 @@ html{
   margin-top: 20%;
   font-size: 1.2em;
 }
+
+#errorHolder{
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
