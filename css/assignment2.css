@@ -1,0 +1,8 @@
+html{
+  background: url(../images/harambe-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "courier new";
+}
+.input-fieldset{
+  border: 0;
+}
