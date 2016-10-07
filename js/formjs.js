@@ -1,6 +1,7 @@
 $(document).ready(function(){
-  //Hide the error messages to start
+  //Hide the error and success messages to start
   $("#errorHolder").hide();
+  $("#successHolder").hide();
 
   //Event listener for submit button
   $("#harambeForm").submit(function(event){
@@ -13,7 +14,7 @@ $(document).ready(function(){
     else{
       $("#errorHolder").show();
     }
-    
+
     return false; //dont refresh page
   });
 });
