@@ -1,4 +1,5 @@
 html{
+  /*not gonna lie learned how to do this on stackoverflow*/
   background: url(../images/harambe-background.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: "courier new";
