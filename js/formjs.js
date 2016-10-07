@@ -9,9 +9,11 @@ $(document).ready(function(){
       $("#errorHolder").hide();
       $("#successHolder").show();
     }
+
     else{
       $("#errorHolder").show();
     }
+    
     return false; //dont refresh page
   });
 });
@@ -28,16 +30,19 @@ function verifyForm(){
     $("#nameError").show();
     return false;
   }
+
   //check for email length
   else if($("input[name='email-field']").val().length==0){
     $("#emailError").show();
     return false;
   }
+
   //check for @ in email
   else if($("input[name='email-field']").val().indexOf('@')==-1){
     $("#emailFormatError").show();
     return false;
   }
+
   //Check if any buttons are checked
   else if(!$("input[name='meme-button']:checked").val()){
     $("#buttonError").show();

@@ -4,15 +4,18 @@ html{
   background-size: cover;
   font-family: "courier new";
 }
+
 #titleBar{
   text-align: center;
   text-shadow: 2px 2px #D3D3D3;
 }
+
 .input-fieldset{
   border: 0;
   text-align: center;
   margin-top: 20%;
 }
+
 .textbox-input{
   opacity: 0.8;
 }
